@@ -1,0 +1,19 @@
+:root {
+	--Bright-orange: hsl(31, 77%, 52%);
+	--Dark-cyan: hsl(184, 100%, 22%);
+	--Very-dark-cyan: hsl(179, 100%, 13%);
+	/* paragraphs */
+	--Transparent-white: hsla(0, 0%, 100%, 0.75);
+	/* (background, headings, buttons) */
+	--Very-light-gray: hsl(0, 0%, 95%);
+}
+
+@font-face {
+	font-family: light;
+	src: url(../../assets/font/Lexend_Deca/static/LexendDeca-Light.ttf);
+}
+
+@font-face {
+	font-family: regular;
+	src: url(../../assets/font/Lexend_Deca/static/LexendDeca-Regular.ttf);
+}
