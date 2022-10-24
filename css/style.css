@@ -30,7 +30,9 @@ main {
 	align-items: center;
 }
 
-.card-1 {
+.card-1,
+.card-2,
+.card-3 {
 	max-width: 400px;
 	height: fit-content;
 	background-color: var(--Bright-orange);
@@ -39,11 +41,11 @@ main {
 .sedan,
 .suvs,
 .luxury {
-	padding: 20px 0px 20px 20px;
+	padding: 30px 0px 20px 30px;
 }
 
 .card-content {
-	padding-left: 20px;
+	padding: 0px 30px 0px 30px;
 }
 
 .card-title {
@@ -54,10 +56,10 @@ main {
 
 .card-text {
 	color: var(--Very-light-gray);
-	font-size: 12px;
+	font-size: 14px;
 	font-family: light;
 	margin-top: 20px;
-	max-width: 250px;
+	max-width: 200px;
 }
 
 .card-2 {
@@ -66,4 +68,79 @@ main {
 
 .card-3 {
 	background-color: var(--Very-dark-cyan);
+}
+
+.learn-more-background1,
+.learn-more-background2,
+.learn-more-background3 {
+	background-color: white;
+	border-radius: 20px;
+	width: fit-content;
+	margin: 100px 0px 40px 30px;
+	display: flex;
+}
+
+
+
+.learn-more-background2,
+.learn-more-background3 {
+	margin: 100px 0px 40px 0px;
+}
+
+.learn-more-background1:hover {
+	background-color: var(--Bright-orange);
+	border: 1px white solid;
+	border-radius: 20px;
+	width: fit-content;
+	margin: 100px 0px 40px 30px;
+
+}
+
+.learn-more-background2:hover {
+	background-color: var(--Dark-cyan);
+	border: 1px white solid;
+	border-radius: 20px;
+	width: fit-content;
+	margin: 100px 0px 40px 0px;
+}
+
+.learn-more-background3:hover {
+	background-color: var(--Very-dark-cyan);
+	border: 1px white solid;
+	border-radius: 20px;
+	width: fit-content;
+	margin: 100px 0px 40px 0px;
+}
+
+.learn-more,
+.learn-more2,
+.learn-more3 {
+	color: var(--Bright-orange);
+	margin: auto;
+	padding: 10px;
+	text-decoration: none;
+
+}
+
+.learn-more:hover,
+.learn-more2:hover,
+.learn-more3:hover {
+	color: white;
+	margin: auto;
+	padding: 10px;
+	text-decoration: none;
+}
+
+.learn-more2 {
+	color: var(--Dark-cyan);
+}
+
+.learn-more3 {
+	color: var(--Very-dark-cyan);
+}
+
+@media(max-width:500px) {
+	main {
+		flex-wrap: wrap;
+	}
 }
